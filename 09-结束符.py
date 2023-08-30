@@ -1,0 +1,5 @@
+# print('输出的内容',end='\n')
+print('hello')  # print()自带的结束符号就是\n，即是print('hello') == print('hello',end = '\n')
+print('world')
+print('hello',end = '\t')
+print('Python')
