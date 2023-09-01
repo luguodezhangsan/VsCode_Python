@@ -16,10 +16,12 @@ NameError: 异常类型
 除数不能为0
 ZeroDivisionError: division by zero'''
 
+'''
 try:
     print(num)
 except NameError:
     print('num未被定义')
+'''
 # num未被定义
 
 try:

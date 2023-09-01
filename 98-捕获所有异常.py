@@ -1,8 +1,11 @@
 # Exception 是所有程序异常类的父类
+
+'''
 try:
     print(num)
 except Exception as result:
     print(result)
+'''
 # name 'num' is not defined
 # 不用管 异常类型 是什么, Exception 包括所有异常类型
 
