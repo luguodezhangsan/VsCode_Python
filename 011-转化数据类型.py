@@ -19,6 +19,7 @@ str = '23'
 print(float(str))
 
 str2 = '[1, 2, 3]'
+print(eval(str2))
 print(type(eval(str2)))
 
 # Python中所有代码都可以在pycharm的python console中运行，即交互式开发环境，能不用print就快速展示其结果，最好只用于写简单的测试
